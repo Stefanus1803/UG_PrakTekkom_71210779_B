@@ -16,19 +16,19 @@ while True:
     if operasi == 1:
         inputan1 = float(input('Enter first number: '))
         inputan2 = float(input('Enter second number: '))
-        print("{}".format(add(inputan1, inputan2)))
+        print("Hasil nya : {}".format(add(inputan1, inputan2)))
     elif operasi == 2:
         inputan1 = float(input('Enter first number: '))
         inputan2 = float(input('Enter second number: '))
-        print("{}".format(subtract(inputan1, inputan2)))
+        print("Hasil nya : {}".format(subtract(inputan1, inputan2)))
     elif operasi == 3:
         inputan1 = float(input('Enter first number: '))
         inputan2 = float(input('Enter second number: '))
-        print("{}".format(multiply(inputan1, inputan2)))
+        print("Hasil nya : {}".format(multiply(inputan1, inputan2)))
     elif operasi == 4:
         inputan1 = float(input('Enter first number: '))
         inputan2 = float(input('Enter second number: '))
-        print("{}".format(divide(inputan1, inputan2)))
+        print("Hasil nya : {}".format(divide(inputan1, inputan2)))
     elif operasi == 5:
         break
     else:
